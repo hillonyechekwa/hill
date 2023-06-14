@@ -5,11 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "npm-run-all sass --parallel watch:*",
-    "wacth:eleventy": "eleventy --serve",
-    "wacth:sass": "npm sass -- --watch",
+    "watch:eleventy": "eleventy --serve",
+    "watch:sass": "npm run sass -- --watch",
     "build": "eleventy",
-    "sass": "sass --style=compressed src/scss/styles.scss src/_includes/css/styles.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --style=compressed src/scss/styles.scss src/_includes/css/styles.css"
   },
   "author": "Hill Onyechekwa",
   "license": "MIT",
