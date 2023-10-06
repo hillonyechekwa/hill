@@ -5,11 +5,17 @@
 	width: auto;
 	height: auto;
 	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	ul{
 		width: 70%;
 		height: 50px;
+		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		font-family: vars.$gopher;
+		font-weight: 400;
 	}
 }
 
